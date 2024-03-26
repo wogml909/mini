@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.joeun.Controller.ListController">
+   <children>
+      <TilePane alignment="CENTER" prefHeight="125.0" prefWidth="1353.0" style="-fx-background-color: #1717;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="日本文学夫婦" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </TilePane>
+      <HBox layoutX="93.0" layoutY="154.0">
+         <children>
+            <TextField prefHeight="31.0" prefWidth="278.0" style="-fx-background-color: ffff;" text="오사카  여행지 ">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </TextField>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#moveToInsert" prefHeight="29.0" prefWidth="78.0" style="-fx-background-color: #1717;" text="Search" textFill="WHITE" />
+         </children>
+      </HBox>
+      <ImageView fitHeight="353.0" fitWidth="663.0" layoutX="82.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/02.jpg" />
+         </image>
+      </ImageView>
+      <HBox layoutX="78.0" layoutY="691.0" prefHeight="203.0" prefWidth="1262.0">
+         <children>
+            <ImageView fitHeight="250.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/04.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="250.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/07.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="250.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/08.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+            <ImageView fitHeight="201.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/09.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </children>
+      </HBox>
+      <TextFlow layoutX="95.0" layoutY="209.0" prefHeight="29.0" prefWidth="1241.0">
+         <children>
+            <Label alignment="TOP_LEFT" lineSpacing="1.0" prefHeight="25.0" prefWidth="1124.0" text="人気旅行" textFill="#89b989">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#moveToInsert" prefHeight="29.0" prefWidth="78.0" style="-fx-background-color: #1717;" text="좋아요❤" textFill="WHITE" />
+         </children>
+      </TextFlow>
+      <TextArea layoutX="658.0" layoutY="251.0" prefHeight="356.0" prefWidth="647.0" text="추천 여행지 오사카성&#10;&#10;오사카에 있는 성. 히메지 성, 구마모토 성과 함께, '일본 3대 명성(名城)'[1] 중 &#10;하나이나, 현존하는 오사카 성은 당시의 모습을 재현하여 복원한 것으로 겉으로만 &#10;옛 모습 그대로고 내부는 전기와 수도가 설치된 현대식 건물이다.[2]&#10;&#10;JR 서일본 오사카 순환선의 오사카죠코엔역(大阪城公園)이나 지하철 츄오선 타니마치&#10;욘초메역(谷町四丁目), 모리노미야역(森ノ宮), 타니마치선 텐마바시역(天満橋), 나가&#10;호리츠루미료쿠치선 오사카 비즈니스파크역이 근처에 위치해 있다. 성 자체까지는&#10; 600m 이상 떨어져 있으니 좀 걸리지만 산책하기에는 딱 맞는다. 천수각이 목적이라면 &#10;오사카 비즈니스파크역이 가장 가깝다. 특히 봄에는 주변의 벚꽃 나무로 풍경이 절정을&#10; 이룬다.&#10;&#10;영업시간 오전 09:00~ 입장료 600엔 &#10;&#10;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextArea>
+      <HBox layoutX="78.0" layoutY="639.0" prefHeight="29.0" prefWidth="1237.0">
+         <children>
+            <Label alignment="TOP_LEFT" lineSpacing="1.0" prefHeight="25.0" prefWidth="301.0" text="1위 시즈오카 " textFill="#89b989">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" lineSpacing="1.0" prefHeight="26.0" prefWidth="316.0" text="2위 도톤보리 " textFill="#89b989">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" lineSpacing="1.0" prefHeight="25.0" prefWidth="314.0" text="3위 나고야 " textFill="#89b989">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" lineSpacing="1.0" prefHeight="26.0" prefWidth="293.0" text="4위 도쿄 " textFill="#89b989">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
